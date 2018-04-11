@@ -1,6 +1,7 @@
 {
   "name": "obento-loop",
   "version": "1.0.0",
+  "description": "obento-loop keeps executing functions at regular intervals",
   "main": "index.js",
   "author": "Yuichi Ikeda <ikeda@framelunch.jp>",
   "license": "MIT",

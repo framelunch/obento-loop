@@ -1,5 +1,5 @@
 # obento-loop
-obento-loop keeps executing functions at regular intervals/
+obento-loop keeps executing functions at regular intervals
 
 ## Installation
 Yarn:

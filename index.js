@@ -3,17 +3,19 @@ var looptime = 40;
 var id;
 
 module.exports = {
-  add(func) {
+  add: function(func) {
     cp.add(func);
     if (!id) {
-      id = setInterval(() => cp.update(), looptime);
+      id = setInterval(function() {
+        cp.update();
+      }, looptime);
     }
   },
-  remove(func) {
+  remove: function(func) {
     cp.remove(func);
     if (!cp.length) {
       clearInterval(id);
       id = null;
     }
-  }
+  },
 };
